@@ -1,0 +1,25 @@
+{
+    "license": "MIT",
+    "name": "vjoon/vjoon_wp_adapater",
+    "description": "vjoon WordPress Adapter",
+    "authors": [
+        {
+            "name": "Christian Storm",
+            "homepage": "https://vjoon.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": "^8.2",
+        "erusev/parsedown": "^1.7",
+        "phpseclib/phpseclib": "^3.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "vjoon\\Adapter\\": "src/"
+        }
+    }
+
+}
